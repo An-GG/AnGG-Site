@@ -1,8 +1,7 @@
 div {
-    background-color: rgb(255, 255, 255);
     padding: 0px;
     width: 100%;
-    height: var(--NAVBAR-HEIGHT);
+    height: calc(100% - var(--NAVBAR-HEIGHT));
     border: 0px;
     margin: 0px;
 }

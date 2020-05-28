@@ -1,0 +1,29 @@
+:host {
+    --scale: 1.7;
+}
+
+div {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(var(--scale) * 200px);
+    height: calc(var(--scale) * 70px);
+    border-radius: calc(var(--scale) * 35px);
+    background-color: rgb(7, 153, 221);
+}
+
+p {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+    height: calc(33px * var(--scale));
+    font: calc(33px * var(--scale)) Roboto;
+    color: white;
+    text-align: center;
+    transform: translate(0, 50%)
+}
